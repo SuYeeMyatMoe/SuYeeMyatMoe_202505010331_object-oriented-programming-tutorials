@@ -4,7 +4,9 @@ class Student {
     int age;
     double gpa;
 
-    // Constructor
+    // Constructor (to take value when we call the class )
+    // When you pass values inside the parentheses during class instantiation, 
+    // the constructor receives and assigns those values to the object's properties.
     Student(String studentName, int studentAge, double studentGpa) {
         name = studentName;
         age = studentAge;
